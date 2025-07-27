@@ -3903,7 +3903,6 @@ figure.highlight pre .javascript .function {
   font-size: 2em;
 }
 #post {
-  backdrop-filter: blur(10px); /* 模糊程度 */
   -webkit-backdrop-filter: blur(10px); /* 兼容 Safari */
   background-color: rgba(255,255,255,0.5); /* 半透明背景 */
   color: #999;
@@ -3911,7 +3910,6 @@ figure.highlight pre .javascript .function {
 #post pre,
 #post blockquote,
 #post .highlight {
-  backdrop-filter: blur(4px);
   border-radius: 8px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -3919,7 +3917,7 @@ figure.highlight pre .javascript .function {
 [data-theme="dark"] #post pre,
 [data-theme="dark"] #post blockquote,
 [data-theme="dark"] #post .highlight {
-  background-color: rgba(50,50,50,0.8) !important;
+  background-color: rgba(26,18,18,0.85) !important;
 }
 #post > #post-info {
   margin-bottom: 30px;
@@ -4694,6 +4692,10 @@ figure.highlight pre .javascript .function {
   font-weight: 500 !important;
   color: #000 !important;
 }
+#post .table-wrap table {
+  background-color: rgba(76,138,171,0.85);
+  color: #fff;
+}
 #post #post-title,
 #post #toc-title {
   font-size: 1rem !important;
@@ -4750,15 +4752,14 @@ html[data-theme="dark"] #article-container a:hover {
 }
 html[data-theme="dark"] #article-container pre,
 html[data-theme="dark"] #article-container code {
-  background-color: rgba(30,35,40,0.85) !important;
+  background-color: rgba(26,18,18,0.85);
   color: #f0f0f0 !important;
-  border: 1px solid #444;
 }
 html[data-theme="dark"] #article-container code {
   color: #35dc06 !important;
 }
 html[data-theme="dark"] #article-container table {
-  background-color: rgba(40,45,50,0.9) !important;
+  background-color: rgba(26,18,18,0.85);
   border-color: #555 !important;
   padding-bottom: 10px !important;
 }
